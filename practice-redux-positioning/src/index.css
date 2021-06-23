@@ -1,0 +1,41 @@
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app-container .parent {
+  position: relative;
+  border: 5px solid black;
+  height: 500px;
+  width: 500px;
+}
+
+.app-container .parent .child {
+  position: absolute;
+  border: 5px solid black;
+  height: 250px;
+  width: 250px;
+  left: 50%;
+  transform: translate(-50%, 0); 
+  display: flex;
+  flex-flow: column wrap;
+  /* margin-left: -50px; */
+  /* margin-top: -50px; */
+  /* top: 0; */
+}
+
+p {
+   text-align: center;
+}
+
+/* 
+.button-one {
+ align-self: center;
+} */
